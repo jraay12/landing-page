@@ -118,20 +118,7 @@ export default function DormEaseLanding() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 text-white overflow-x-hidden">
       {/* Claude Sonnet 4.5 Vibe Coding Credit */}
-      <div className="vibe-banner">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-2.5">
-          <div className="flex items-center justify-center gap-2 sm:gap-3 text-white text-xs sm:text-sm">
-            <span className="font-medium">✨ Vibe Coded with</span>
-            <div className="claude-badge">
-             
-              <span>Claude Sonnet 4.5</span>
-            </div>
-            <span className="hidden sm:inline text-white/80">
-              — AI-powered design & development
-            </span>
-          </div>
-        </div>
-      </div>
+     
 
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&display=swap');
@@ -394,7 +381,7 @@ export default function DormEaseLanding() {
 
       {/* Navigation */}
       <nav
-        className={`fixed top-[40px] sm:top-[44px] w-full z-50 transition-all duration-300 ${isScrolled ? "bg-slate-950/90 backdrop-blur-xl border-b border-white/10 shadow-2xl" : "bg-transparent"}`}
+        className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-slate-950/90 backdrop-blur-xl border-b border-white/10 shadow-2xl" : "bg-transparent"}`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
           <div className="flex items-center justify-between">
